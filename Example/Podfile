@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'LGPLayout_Example' do
+  pod 'LGPLayout', :path => '../'
+
+  target 'LGPLayout_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
